@@ -1,0 +1,221 @@
+@import "../sass/_media"
+@import "../../node_modules/bootstrap/scss/bootstrap"
+
+body
+    margin: 0
+    padding: 0
+    font-family: 'Open Sans', sans-serif
+    line-height: 2
+
+    header
+        padding: 20px 40px 0
+        text-transform: uppercase
+        height: 50%
+        background: url(../images/banner.jpg) no-repeat top center / cover
+        background-color: #626269
+        background-blend-mode: multiply
+        nav
+            display: grid
+            grid-template-columns: 1.5fr 1fr
+            .company
+                color: white
+                p a
+                    text-decoration: none
+                    color: white
+            .menu
+                ul
+                    padding: 0
+                    display: grid
+                    grid-template-columns: 1fr 1fr 1fr
+                    justify-items: end
+                    li
+                        list-style-type: none
+                        a
+                            text-decoration: none
+                            color: white
+        #banner
+            text-align: center
+            padding: 8% 20%
+            .container
+                h1
+                    margin: 0
+                    padding: 10px
+                    color: white
+                    font-size: 50px 
+                h2
+                    margin: 0
+                    color: #a2a2af
+                    font-size: 30px
+                    padding-bottom: 20px
+                button
+                    text-transform: uppercase
+                    background-color: #f32853
+                    color: white
+                    border: none 
+                    border-radius: 5px
+                    padding: 10px 30px
+    
+    main
+        #intro
+            .container
+                padding: 40px 5%
+                display: grid
+                grid-template-columns: 1fr 1fr
+                gap: 10%
+                .titre
+                    text-transform: uppercase
+                    h2
+                        font-size: 30px
+                    h3
+                        color: #a2a2af
+                        font-size: 24px
+                .text
+                    color: #a2a2a2
+                    font-size: 14px
+        
+        #site
+            background-color: #f6f6f6
+            .container
+                padding: 5% 0
+                text-transform: uppercase
+                text-align: center
+                h2
+                    margin: 0
+                    font-size: 30px
+                h3
+                    margin: 0
+                    color: #a2a2af
+                    font-size: 24px
+                    padding-bottom: 5%
+                .photo
+                    padding-bottom: 20px
+                    display: grid
+                    grid-template-columns: 1fr 1fr
+                    gap: 30px
+                    div
+                        background-color: white
+                        img
+                            width: 100%
+                        h4
+                            font-size: 16px
+                            padding: 20px 0
+                button
+                    color: white
+                    border: none
+                    border-radius: 5px
+                    padding: 10px 30px
+                    margin: 5px
+                    text-transform: uppercase
+                .rose
+                    background-color: #f32853
+                .noir
+                    background-color: black
+
+        #destination
+            .container
+                padding: 5% 10%
+                h2
+                        font-size: 30px
+                        text-transform: uppercase
+                        margin: 0
+                h3
+                    color: #a2a2af
+                    font-size: 24px
+                    text-transform: uppercase
+                    margin: 0
+                    padding-bottom: 5%
+                .group
+                    display: grid
+                    grid-template-rows: 1fr 1fr
+                    grid-template-columns: 1fr 1fr
+                    gap: 30px
+                    .dest1, .dest3
+                        display: grid
+                        grid-template-columns: 1fr 0.5fr
+                        align-items: center
+                        text-align: end
+                        gap: 30px
+                        .text
+                            h4
+                                margin: 0
+                                font-size: 16px
+                            h5
+                                margin: 0
+                                font-size: 15px
+                                color: #a2a2af
+                                padding-bottom: 10px
+                            p
+                                margin: 0
+                                font-size: 14px
+                                color: #a2a2af
+                        .img img
+                            border: 5px solid #e3e3e3
+                            border-radius: 50%
+                    .dest2, .dest4
+                        display: flex
+                        flex-direction: row-reverse
+                        align-items: center
+                        gap: 30px
+                        .text
+                            h4
+                                margin: 0
+                                font-size: 16px
+                            h5
+                                margin: 0
+                                font-size: 15px
+                                color: #a2a2af
+                                padding-bottom: 10px
+                            p
+                                margin: 0
+                                font-size: 14px
+                                color: #a2a2af
+                        .img img
+                            border: 5px solid #e3e3e3
+                            border-radius: 50%
+        #touch
+            text-transform: uppercase
+            height: auto
+            background: url(../images/banner.jpg) no-repeat center / cover
+            background-color: #626269
+            background-blend-mode: multiply
+            text-align: center
+            .container
+                padding: 5%
+                h2
+                    color: white
+                    font-size: 30px
+                    margin: 0
+                h3
+                    color: #a2a2af
+                    font-size: 24px
+                    margin: 0
+                    padding-bottom: 20px
+                button
+                    color: white
+                    border: none
+                    border-radius: 5px
+                    padding: 10px 30px
+                    background-color: #f32853
+
+    footer
+        text-align: center
+        padding: 50px 0
+        margin: 0 25% 
+        .foot1
+            i
+                font-size: 20px
+                margin: 10px
+                color: #a2a2af
+        .foot2
+            display: grid
+            grid-template-columns: 1fr 1fr 1fr
+            p
+                margin: 10px
+                font-size: 14px
+                color: #a2a2af
+            .sepa
+                border-left: 1px solid #a2a2af
+                border-right: 1px solid #a2a2af
+
+
+
